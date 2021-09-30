@@ -42,6 +42,18 @@ body {
     color: rgba(225, 0, 0, .97);
 }
 
+body#flyer-body{
+    background-color: rgb(201,65,60);
+    color: black;
+
+    header > p{ color: rgb(233, 151, 58); }
+
+    h1{
+        text-shadow: 3px 5px 0px rgb(230,230,216);
+        color: rgb(42,40,42)
+    }
+}
+
 
 .text-red{color: rgba(225, 0, 0, .97) !important;}
 .text-rainbow {
