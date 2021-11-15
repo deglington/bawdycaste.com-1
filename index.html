@@ -1,5 +1,8 @@
 ---
 layout: default
+show-date: 2021-11-27
+fb-link: 'https://fb.me/e/6m0150Av8'
+ticket-link: 'https://balboa-theater.squarespace.com/calendar-of-events/the-rocky-horror-picture-show-1-5twrs'
 ---
 
 <header class="header text-center p-1">
@@ -20,7 +23,8 @@ layout: default
 </div>
 
 <div class="row row-cols-1 row-cols-lg-2 text-center mb-2 mb-lg-0">
-    <div class="col bg-dark rounded py-4">
+    <!-- zoom show box, disabled-->
+    <div class="col bg-dark rounded py-4 d-none">
         <h2 class="df d-md-none" style="font-size: 1.62rem;">Rocky Horror Online Show</h2>
         <h2 class="df fs-1 d-none d-md-inline-block">Rocky Horror Online Show</h2>
         <p class="fofbb" style="line-height: 98%;">Saturday October 16th<br>Pre-show &ndash; 10:00 PM<br><span class="fw-bold">Movie &mdash; 10:30 PM</span></p>
@@ -28,19 +32,19 @@ layout: default
     </div>
     <div class="col text-center">
         <h2 class="fs-1 mb-4"><a target="_blakn" rel="noopener noreferrer" class="text-red TBL link-secondary fs-1" href="https://www.cinemasf.com/balboa">The Balboa Theatre</a></h2>
-        <p class="ss">Two special <span class="">halloween</span> shows at our home theater!</p>
+        <!-- <p class="ss">Two special <span class="">halloween</span> shows at our home theater!</p> -->
         <div class="row align-items-center">
             <div class="col">
-                <p class="fs-2 fofbb">Sat Oct. 30 <span class="d-none d-md-inline">&mdash;</span> 11pm</p>
+                <p class="fs-2 fofbb">Last Saturday Every Mont!</p>
             </div>
             <div class="col">
-                <div class="btn-group" role="group">
-                    <a target="_blakn" rel="noopener noreferrer" class="btn btn-lg btn-danger f13" href="https://www.cinemasf.com/events-calendar/the-rocky-horror-picture-show-1-gkne6">tickets</a>
-                    <a target="_blakn" rel="noopener noreferrer" class="btn btn-lg btn-primary f13" href="https://fb.me/e/1G7XOf2Qy">FB</a>
+                <div class="btn-group form-control" role="group">
+                    <a target="_blakn" rel="noopener noreferrer" class="btn btn-lg btn-danger f13" href="{{page.ticket-link}}">tickets</a>
+                    <a target="_blakn" rel="noopener noreferrer" class="btn btn-lg btn-primary f13" href="{{page.fb-link}}">FB</a>
                 </div>
             </div>
         </div>
-        <div class="row align-items-center">
+        <!-- <div class="row align-items-center">
             <div class="col">
                 <p class="fs-2 fofbb" for="">Halloween <span class="d-none d-md-inline">&mdash;</span> 8:30pm</p>
             </div>
@@ -50,6 +54,6 @@ layout: default
                     <a target="_blakn" rel="noopener noreferrer" class="btn btn-lg btn-primary f13" href="https://fb.me/e/18wFhwZcO">FB</a>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
