@@ -38,7 +38,9 @@
 }
 
 body {
-    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(to left, rgba(192, 12, 8, 0.759), rgba(43, 36, 108, 0.866)), url("https://storage.googleapis.com/bawdycaste/images/rhps-nye-ball.png");
+    background-size: cover;
+    background-position: center;
     color: rgba(225, 0, 0, .97);
 }
 
@@ -68,7 +70,6 @@ p{font-size: 1.62em;}
 .ss {font-family: "ss";}
 .f13 {font-family: "f13";}
 .df {font-family: "DF";}
-.bawdycaste {font-family: "f13";}
 .sbitn {font-family: "sbitn";}
 .TBL {font-family: "TBL";z-index: 2;}
 .TBL_1 {font-family: "TBL_1";z-index: 2;}
@@ -164,4 +165,9 @@ hr.style-eight:after {
     font-size: 1.5em;
     padding: 0 0.25em;
     background: white;
+}
+.last-saturday{
+     -webkit-text-fill-color: rgba(244, 0, 0, 0.222);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
 }

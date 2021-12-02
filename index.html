@@ -1,14 +1,17 @@
 ---
 layout: default
-show-date: 2021-11-27
-fb-link: 'https://fb.me/e/6m0150Av8'
-ticket-link: 'https://balboa-theater.squarespace.com/calendar-of-events/the-rocky-horror-picture-show-1-5twrs'
+show_date: 2021-11-27
+time_doors: "10:30"
+time_preshow: "11:30"
+time_show: "MIDNIGHT"
+fb_link: 'https://fb.me/e/6m0150Av8'
+ticket_link: 'https://balboa-theater.squarespace.com/calendar-of-events/the-rocky-horror-picture-show-1-5twrs'
 ---
 
-<header class="header text-center p-1">
-    <h1 style="font-size: 1.90rem;" class="f13">
-        <span class="bawdycaste">Bawdy Caste</span> presents: <br>
-        <span class="df" style="text-shadow: 2px 2px white;">THE ROCKY HORROR PICTURE SHOW</span>
+<header class="header text-center text-light p-1">
+    <h1 style="font-size: 2.7rem;" class="fofbb">
+        <span class="ss" style="font-size: 3rem; text-transform: uppercase; text-rendering: optimizeLegibility;">Bawdy Caste</span> presents: <br>
+        <span class="df text-red" style="text-shadow: 4px 4px white;">THE ROCKY HORROR PICTURE SHOW</span>
     </h1>
 </header>
 
@@ -22,39 +25,32 @@ ticket-link: 'https://balboa-theater.squarespace.com/calendar-of-events/the-rock
     </div>
 </div>
 
-<div class="row row-cols-1 row-cols-lg-2 text-center mb-2 mb-lg-0">
-    <!-- zoom show box, disabled-->
-    <div class="col bg-dark rounded py-4 d-none">
-        <h2 class="df d-md-none" style="font-size: 1.62rem;">Rocky Horror Online Show</h2>
-        <h2 class="df fs-1 d-none d-md-inline-block">Rocky Horror Online Show</h2>
-        <p class="fofbb" style="line-height: 98%;">Saturday October 16th<br>Pre-show &ndash; 10:00 PM<br><span class="fw-bold">Movie &mdash; 10:30 PM</span></p>
-        <p class="text-center"><a target="_blakn" rel="noopener noreferrer" href="https://us02web.zoom.us/j/88211275752" class="btn btn-lg btn-danger f13">Watch on Zoom</a></p>
-    </div>
+<div class="row row-cols-1 text-center mb-2 mb-lg-0">
     <div class="col text-center">
-        <h2 class="fs-1 mb-4"><a target="_blakn" rel="noopener noreferrer" class="text-red TBL link-secondary fs-1" href="https://www.cinemasf.com/balboa">The Balboa Theatre</a></h2>
-        <!-- <p class="ss">Two special <span class="">halloween</span> shows at our home theater!</p> -->
+        <!-- <h2 class="mb-4 f13">Every <span class="fw-bold last-saturday">Last Saturday</span> at the <a target="_blank" rel="noopener noreferrer" class="text-red fs-1" href="https://www.cinemasf.com/balboa">Balboa Theatre</a></h2> -->
+        <h2 class="fs-1 mb-4 f13"><span class="fw-bold last-saturday">FRIDAY DECEMBER 31ST<br></span> New Year's Eve at the <a target="_blank" rel="noopener noreferrer" class="text-red fs-1" href="https://www.cinemasf.com/balboa">Balboa Theatre</a></h2>
         <div class="row align-items-center">
             <div class="col">
-                <p class="fs-2 fofbb">Last Saturday Every Month!</p>
-                <p class="fs-3 fofbb">Doors &ndash; 10:30<br>Movie &ndash; <span class="df text-uppercase">midnight</span></p>
+                <table class="table text-light table-borderless table-sm fofbb text-red text-nowrap table-responsive fs-2">
+                    <tr>
+                        <td class="text-end">Doors @</td>
+                        <td>{{page.time_doors}}</td>
+                    </tr>
+                    <tr>
+                        <td class="text-end">Preshow @</td>
+                        <td>{{page.time_preshow}}</td>
+                    </tr>
+                    <tr>
+                        <td class="text-end">Showtime @</td>
+                        <td>{{page.time_show}}</td>
+                </table>
             </div>
             <div class="col">
-                <div class="btn-group" role="group">
-                    <a target="_blakn" rel="noopener noreferrer" class="btn btn-lg btn-danger f13" href="{{page.ticket-link}}">tickets</a>
-                    <a target="_blakn" rel="noopener noreferrer" class="btn btn-lg btn-primary f13" href="{{page.fb-link}}">FB</a>
+                <div class="btn-group form-control" style="background-color:rgba(0, 0, 0, 0); border:0;" role="group">
+                    <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-danger  f13" href="{{page.ticket_link}}">tickets</a>
+                    <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary f13" href="{{page.fb_link}}">FB</a>
                 </div>
             </div>
         </div>
-        <!-- <div class="row align-items-center">
-            <div class="col">
-                <p class="fs-2 fofbb" for="">Halloween <span class="d-none d-md-inline">&mdash;</span> 8:30pm</p>
-            </div>
-            <div class="col">
-                <div class="btn-group" role="group">
-                    <a target="_blakn" rel="noopener noreferrer" class="btn btn-lg btn-danger f13" href="https://www.cinemasf.com/events-calendar/the-rocky-horror-picture-show-1-gkne6">tickets</a>
-                    <a target="_blakn" rel="noopener noreferrer" class="btn btn-lg btn-primary f13" href="https://fb.me/e/18wFhwZcO">FB</a>
-                </div>
-            </div>
-        </div> -->
     </div>
 </div>
