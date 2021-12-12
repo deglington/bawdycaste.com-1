@@ -6,6 +6,7 @@ time_preshow: "11:30"
 time_show: "MIDNIGHT"
 fb_link: 'https://fb.me/e/6m0150Av8'
 ticket_link: 'https://balboa-theater.squarespace.com/calendar-of-events/the-rocky-horror-picture-show-1-5twrs'
+next-show: FRIDAY DECEMBER 31ST
 ---
 
 <header class="header text-center text-light p-1">
@@ -25,10 +26,10 @@ ticket_link: 'https://balboa-theater.squarespace.com/calendar-of-events/the-rock
     </div>
 </div>
 
-<div class="row row-cols-1 text-center mb-2 mb-lg-0">
+<div class="row row-cols-1 text-center mb-3 mb-lg-0 bg-dark rounded-3 p-3 m-0">
     <div class="col text-center">
-        <!-- <h2 class="mb-4 f13">Every <span class="fw-bold last-saturday">Last Saturday</span> at the <a target="_blank" rel="noopener noreferrer" class="text-red fs-1" href="https://www.cinemasf.com/balboa">Balboa Theatre</a></h2> -->
-        <h2 class="fs-1 mb-4 f13"><span class="fw-bold last-saturday">FRIDAY DECEMBER 31ST<br></span> New Year's Eve at the <a target="_blank" rel="noopener noreferrer" class="text-red fs-1" href="https://www.cinemasf.com/balboa">Balboa Theatre</a></h2>
+        <h2 class="mb-4 f13">the cult classic movie with full <u>audience participation</u> experience!</h2>
+        <h2 class="fs-2 mb-4 f13">Next Show: <span class="fw-bold last-saturday">{{page.next-show}}<br></span> New Year's Eve <!--Every Last Saturday--> at the <a target="_blank" rel="noopener noreferrer" class="text-red fs-1" href="https://www.cinemasf.com/balboa">Balboa Theatre</a></h2>
         <div class="row align-items-center">
             <div class="col">
                 <table class="table text-light table-borderless table-sm fofbb text-red text-nowrap table-responsive fs-2">
@@ -48,7 +49,7 @@ ticket_link: 'https://balboa-theater.squarespace.com/calendar-of-events/the-rock
             <div class="col">
                 <div class="btn-group form-control" style="background-color:rgba(0, 0, 0, 0); border:0;" role="group">
                     <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-danger  f13" href="{{page.ticket_link}}">tickets</a>
-                    <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary f13" href="{{page.fb_link}}">FB</a>
+                    <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary f13" href="{{page.fb_link}}">FB Event</a>
                 </div>
             </div>
         </div>
